@@ -4,11 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
 a {
-  transition-duration: none;
+  text-decoration: none;
   color: black;
 }
 
 ul {
   list-style: none;
 }
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./pictures";
